@@ -27,4 +27,4 @@ This project is a solution for the "Coffee Listing Page" challenge from devChall
 
 ## Screenshots
 
-[!screenshot](/public/images/screenshot/coffee-store.png)
+![screenshot](/public/images/screenshot/coffee-store.png)
