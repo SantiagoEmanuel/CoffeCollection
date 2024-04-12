@@ -33,7 +33,7 @@ export function ProductCard(
           )}
         </div>
         <div className="flex flex-col items-center justify-between gap-2">
-          <p className="bg-[#BEE3CC] dark:text-black rounded-md px-3 font-bold text-xs py-1">
+          <p className="bg-[#BEE3CC] text-black rounded-md px-3 font-bold text-xs py-1">
             {price}
           </p>
           {available ? (
