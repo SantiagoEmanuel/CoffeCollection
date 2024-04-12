@@ -15,7 +15,7 @@ export function AvailableProducts() {
               image={product.image}
               popular={product.popular}
               available={product.available}
-              rating={product.rating}
+              rating={product.rating || 0}
               votes={product.votes}
               price={product.price}
               key={product.id}

@@ -19,7 +19,7 @@ export function ProductCard(
       <aside className="flex justify-between">
         <div className="flex flex-col gap-2">
           <p>{name}</p>
-          {rating != null ? (
+          {rating != 0 ? (
             <div className="flex gap-[5px] items-center">
               <img src="/images/icons/Star_fill.svg" alt="Star icon fill" />
               <p className="text-sm">{rating}</p>{" "}

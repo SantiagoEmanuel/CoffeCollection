@@ -1,5 +1,3 @@
-import { ArrayOfProducts } from "../types";
-
 export const DATA = [
   {
     id: 1,
@@ -46,7 +44,7 @@ export const DATA = [
     name: "Chocolate Coffee",
     image: "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/chocolate-coffee.jpg",
     price: "$4.00",
-    rating: "4.65",
+    rating: 4.65,
     votes: 122,
     popular: false,
     available: false
