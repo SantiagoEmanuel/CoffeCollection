@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+  font-family: "DM Sans";
+}
+
+body {
+  background-image: url('/images/bg/bg-cafe.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.background-image {
+  background-image: url('/images/icons/vector.svg');
+  background-repeat: no-repeat;
+  background-position-x: 240px;
+  background-position-y: 50px;
+  overflow: hidden;
+}
