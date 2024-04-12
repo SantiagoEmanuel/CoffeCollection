@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { Products } from "./components/setcions/Products";
+import { AvailableProducts } from "./components/AvailableProducts";
+import { AllProducts } from "./components/AllProducts";
 
 export function App(): JSX.Element {
-  const [filter, setFilter] = useState(false);
+  const [filter, setFilter] = useState(Boolean);
 
   return (
     <div className="bg-[#1B1D1F] max-[1220px]:m-[100px] max-[1220px]:mt-40 rounded-xl m-auto mt-40 max-w-screen-lg flex flex-col mb-32 max-lg:mt-[15%] pb-32">
@@ -48,7 +49,7 @@ export function App(): JSX.Element {
         </div>
       </header>
       <section className="place-items-center gap-x-8 gap-y-24 max-lg:grid-cols-2 max-sm:grid-cols-1 grid items-center max-w-screen-lg grid-cols-3 m-auto">
-        <Products filter={filter} />
+        {filter ? <AvailableProducts /> : <AllProducts />}
       </section>
     </div>
   );
