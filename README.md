@@ -17,7 +17,7 @@ This project is a solution for the "Coffee Listing Page" challenge from devChall
 
 ## Demo
 
-[Link to the demo]()
+[Link to the demo](https://simple-coffe-collection.vercel.app/)
 
 ## Instructions to Run the Project Locally
 
