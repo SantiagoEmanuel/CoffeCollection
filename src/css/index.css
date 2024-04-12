@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light dark;
+  background: #212121;
   font-family: "DM Sans";
   color: white;
 }
